@@ -60,9 +60,9 @@ module.exports = sock = async (sock, m, chatUpdate, store) => {
         const time = moment.tz("Asia/Makassar").format("HH:mm:ss");
 
         if (m.message) {
-            console.log('\x1b[30m--------------------\x1b[0m');
-            console.log('\x1b[1m\x1b[41m\x1b[97m▢ New Message\x1b[0m');
-            console.log('\x1b[42m\x1b[30m' +
+            console.log('------------------------');
+            console.log('▢ New Message');
+            console.log(
                 `   ⌬ Tanggal: ${new Date().toLocaleString()} \n` +
                 `   ⌬ Pesan: ${m.body || m.mtype} \n` +
                 `   ⌬ Pengirim: ${m.pushName} \n` +
