@@ -66,14 +66,14 @@ module.exports = sock = async (sock, m, chatUpdate, store) => {
                 `   ⌬ Tanggal: ${new Date().toLocaleString()} \n` +
                 `   ⌬ Pesan: ${m.body || m.mtype} \n` +
                 `   ⌬ Pengirim: ${m.pushName} \n` +
-                `   ⌬ JID: ${senderNumber}\x1b[0m`
+                `   ⌬ JID: ${senderNumber}`
             );
 
             if (m.isGroup) {
-                console.log('\x1b[42m\x1b[30m' +
+                console.log(
                     `   ⌬ Grup: ${groupName} \n` +
                     `   ⌬ Tanggal: ${new Date().toLocaleString()} \n` +
-                    `   ⌬ GroupJid: ${m.chat}\x1b[0m`
+                    `   ⌬ GroupJid: ${m.chat}` 
                 );
             }
 
