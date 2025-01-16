@@ -1,3 +1,9 @@
+/*
+YouTube: @RizzKyxF
+Pembuat: RizzCode Rizki
+Source: https://github.com/Ikiwibu6/Base-Bot-Whatsapp
+*/
+
 
 const fs = require('fs');
 const util = require("util");
