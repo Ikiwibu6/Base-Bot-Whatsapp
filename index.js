@@ -1,7 +1,7 @@
 /*
 * Pembuat: Rizki
 * Youtube: @RizzKyxF
-* Source:
+* Source: https://github.com/Ikiwibu6/Base-Bot-Whatsapp
 */
 require("./setting")
 
