@@ -16,6 +16,7 @@ const { default:
 const { resolve } = require("path");
 const Boom = require("@hapi/boom");
 const Pino = require("pino");
+const chalk = require("chalk");
 const readline = require("readline");
 const { getBuffer, smsg } = require("./lib/function");
 const fs = require("fs");
@@ -48,7 +49,7 @@ async function startBot() {
     if (usePairingCode && !sock.authState.creds.registered) {
         const phoneNumber = await question('Please Enter Your Nomber:\n');
         const code = await sock.requestPairingCode(phoneNumber.trim());
-        console.warn(`your pairing code: ${code}`);
+        console.log(chalk.blue(`Your Pairing Code: ${code}`);
     };
     store.bind(sock.ev);
     //========================================//
