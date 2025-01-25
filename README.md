@@ -14,3 +14,6 @@ Thanks To:
 
 Dilarang Keras Menjual Base Ini.
 Copas, Record, ReUpload? Add Credit Ya.
+
+Jika Mengalami Error Hubungi Saya Melalui:
+Email: tururizki20@gmail.com
