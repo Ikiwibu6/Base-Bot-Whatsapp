@@ -49,7 +49,7 @@ async function startBot() {
     if (usePairingCode && !sock.authState.creds.registered) {
         const phoneNumber = await question('Please Enter Your Nomber:\n');
         const code = await sock.requestPairingCode(phoneNumber.trim());
-        console.log(chalk.blue(`Your Pairing Code: ${code}`);
+        console.log(chalk.blue(`Your Pairing Code: ${code}`));
     };
     store.bind(sock.ev);
     //========================================//
